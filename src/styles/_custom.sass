@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 15%
+    right: 60%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 60%
+    right: 10%
 
 
 @keyframes float1
@@ -17,3 +17,31 @@
 
   100%
     transform: translateY(0px)
+
+.bloque-texto-a__texto.p-4
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    width: calc( 100% + 2rem )
+    height: calc( 100% + 2rem )
+    border: dashed $color-primario
+    top: -1rem
+    left: -1rem
+
+
+.fnd-izq
+  background-color: #FBE2AB !important  
+  &:before 
+    background-color: #DEF3F3 !important
+    left: 50% !important
+
+.fnd-izq-pri
+  background-color: #F2F6FA !important  
+  &:before 
+    background-color: #DAFAFF !important
+    left: 50% !important
+
+
+.color-botones
+  background-color: #D9FAFF !important

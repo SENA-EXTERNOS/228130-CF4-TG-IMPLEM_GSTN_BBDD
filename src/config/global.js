@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Documentación y diagnóstico de servicios',
+    descripcionCurso:
+      'En este componente formativo se abordan las transacciones, desde el punto de vista del usuario quien es el actor y conductor de una base de datos. Se puede decir que la transacción son acciones conjuntas de personas que alimentan la base de datos con información o datos, la cual se encarga de organizar para posteriores operaciones, hablando de consultas en general. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/banner-bg.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -32,14 +33,27 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Salvaguarda y recuperación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Evaluación de concurrencia',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Descripción de fallos, control y acceso',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo:
+              'Enumeración y descripción de los elementos de recuperación ante fallos lógicos',
+            hash: 't_1_3',
           },
         ],
       },
@@ -48,14 +62,41 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Tipos de soporte utilizados para salvaguardar datos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Ventajas',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Desventajas',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Tipos de recuperación de datos',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo:
+              'Mecanismos de verificación de la integridad de copias de seguridad',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Documentación de control y accesos',
         desarrolloContenidos: true,
       },
     ],
@@ -101,32 +142,120 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Integridad de transacciones. ',
+      referencia:
+        'Capacho, J. y Nieto, W. (2017). Diseño de base de datos. Universidad del Norte.',
+      tipo: 'PDF',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/70030?page=129',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Descripción de Fallos. ',
+      referencia:
+        'San Martín, E. (2015). Salvaguarda y seguridad de los datos: administración de bases de datos (UF1473). IC Editorial.',
+      tipo: 'PDF',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/44140?page=17',
+    },
+    {
+      tema: 'Tipos de salvaguardas de datos.',
+      referencia:
+        'San Martín, E. (2015). Salvaguarda y seguridad de los datos: administración de bases de datos (UF1473). IC Editorial.',
+      tipo: 'PDF',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/44140?page=71',
+    },
+    {
+      tema: 'Control de C concurrencia.',
+      referencia:
+        'Valderrey, P. (2015). Gestión de bases de datos. RA-MA Editorial.',
+      tipo: 'PDF',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/62469?page=179',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Accesos autorizados',
+      significado:
+        'autorizaciones concedidas a un usuario para la utilización de los diversos recursos.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Autenticación',
+      significado:
+        'procedimiento de comprobación de la identidad de un usuario en un sistema de base de datos.',
+    },
+    {
+      termino: 'Borrado seguro de datos',
+      significado:
+        'conjunto de procedimientos que se realizan sobre un dispositivo determinado para impedir la recuperación de los datos.',
+    },
+    {
+      termino: 'Contraseña',
+      significado:
+        'cadena de caracteres, que puede ser usada en la autenticación de un usuario.',
+    },
+    {
+      termino: 'Copia de respaldo',
+      significado:
+        'copia de los datos de un fichero automatizado en un soporte que posibilite su recuperación.',
+    },
+    {
+      termino: 'Copia de respaldo',
+      significado:
+        'copia de los datos de un fichero automatizado en un soporte que posibilite su recuperación.',
+    },
+    {
+      termino: 'Concurrencia',
+      significado:
+        'es el registro de transacciones simultánea en una base de datos relacional, que debe ser operada de manera organizada, para no tener pérdidas de integridad de datos.',
+    },
+    {
+      termino: 'Eventos',
+      significado:
+        'son tareas que se programan en un sistema gestor de base de datos en un momento de tiempo determinado.',
+    },
+    {
+      termino: 'Fichero',
+      significado:
+        'conjunto organizado de informaciones almacenadas en un soporte común.',
+    },
+    {
+      termino: 'Fichero',
+      significado:
+        'conjunto organizado de informaciones almacenadas en un soporte común.',
+    },
+    {
+      termino: 'Gestión de incidentes',
+      significado:
+        'conjunto de acciones y procesos a brindar a las organizaciones, teniendo como objetivo fortalecer y mejorar las capacidades de respuesta, en forma adecuada a la ocurrencia de incidentes de seguridad de la información, que afecten real o potencialmente sus servicios.',
+    },
+    {
+      termino: 'SGBD',
+      significado: 'sistema gestor de bases de datos. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Coronel, C., Rob, P. y Morris, S. (2011). Bases de datos: diseño, implementación y administración. Cengage Learning. ',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=1280',
+    },
+    {
+      referencia:
+        'Lozano, J. M. (2018). Creación y gestión de una base de datos con MySQL y PhpMyAdmin. [Tesis, Universidad de Jaén]. ',
+      link: 'https://tauja.ujaen.es/bitstream/10953.1/9445/1/TFG%20%285%29.pdf',
+    },
+    {
+      referencia:
+        'Martínez, F. J. y Gallegos, A. (2017). Programación de bases de datos relacionales. Ediciones de la U. ',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=7970',
+    },
+    {
+      referencia:
+        'Capacho, J. y Nieto, W. (2017). Diseño de base de datos. Universidad del Norte. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/70030?page=129',
     },
   ],
   creditos: {
