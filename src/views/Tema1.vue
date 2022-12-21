@@ -182,7 +182,7 @@
               img(src='@/assets/curso/temas/T1/img-10.png', alt='Texto que describa la imagen')
           .col-12.col-lg-8.offset-lg-1.mt-3
             h3.mb-4 Recuperar datos
-            p.mb-4 Cuando hay caídas del sistema se debe conocer cómo restaurar y, si es necesario reparar tablas, recuperar archivos de respaldo que se ejecutan diariamente y utilizar los registros de actualización para recuperar los cambios que se hayan hecho desde la última copia de seguridad. Las copias de seguridad son determinantes a la hora de reestablecer nuevamente la base de datos a su estado original, cuando se presente algún fallo.
+            p.mb-4 Cuando hay caídas del sistema se debe conocer cómo restaurar y, si es necesario reparar tablas, recuperar archivos de respaldo que se ejecutan diariamente y utilizar los registros de actualización para recuperar los cambios que se hayan hecho desde la última copia de seguridad. Las copias de seguridad son determinantes a la hora de restablecer nuevamente la base de datos a su estado original, cuando se presente algún fallo.
         .row.p-4.bg-azul
           .col-3.d-none.d-lg-flex.position-relative.mt-5
           .col-12.col-lg-8.offset-lg-1.mt-3
@@ -202,11 +202,15 @@
           p.mb-2.text-small(numero="1" titulo="Respaldos periódicos de datos") Los respaldos periódicos de datos en los SGBD, incorporan herramientas para realizar diferentes tipos de recuperación: total o incremental.
             ul.lista-ul
               li 
-                i.fas.fa-angle-right
-                | <b>Respaldo total:</b> son aquellos que registran una copia completa de toda la base de datos.
+                i.fas.fa-angle-right.text-small
+                p.mb-1
+                  b Respaldo total:
+                  | son aquellos que registran una copia completa de toda la base de datos.
               li 
-                i.fas.fa-angle-right
-                | <b>Respaldo incremental:</b> son aquellos que registran una copia de respaldo, desde el momento en que se registró la última copia.
+                i.fas.fa-angle-right.text-small
+                p.mb-1
+                  b Respaldo incremental:
+                  | son aquellos que registran una copia de respaldo, desde el momento en que se registró la última copia.
               li 
                 i.fas.fa-angle-right
                 | <b>Respaldo concurrente:</b> son copias constantes, cuando el usuario realiza registros va realizando copias.
