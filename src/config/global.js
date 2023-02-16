@@ -155,11 +155,6 @@ export default {
         'copia de los datos de un fichero automatizado en un soporte que posibilite su recuperación.',
     },
     {
-      termino: 'Copia de respaldo',
-      significado:
-        'copia de los datos de un fichero automatizado en un soporte que posibilite su recuperación.',
-    },
-    {
       termino: 'Concurrencia',
       significado:
         'es el registro de transacciones simultánea en una base de datos relacional, que debe ser operada de manera organizada, para no tener pérdidas de integridad de datos.',
@@ -168,11 +163,6 @@ export default {
       termino: 'Eventos',
       significado:
         'son tareas que se programan en un sistema gestor de base de datos en un momento de tiempo determinado.',
-    },
-    {
-      termino: 'Fichero',
-      significado:
-        'conjunto organizado de informaciones almacenadas en un soporte común.',
     },
     {
       termino: 'Fichero',

@@ -24,14 +24,14 @@
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-around.align-items-center.mb-4
-          .col-6
+          .col-5
             figure
               img(src='@/assets/curso/temas/T3/img-2.svg', alt='Texto que describa la imagen')
         h4.text-center Seguridad
         p.text-center  Protección de datos ante usuarios no autorizados.
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-around.align-items-center.mb-4
-          .col-6
+          .col-5
             figure
               img(src='@/assets/curso/temas/T3/img-3.svg', alt='Texto que describa la imagen')
         h4.text-center Integridad
