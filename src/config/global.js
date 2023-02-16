@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Documentación y diagnóstico de servicios',
     descripcionCurso:
-      'En este componente formativo se abordan las transacciones, desde el punto de vista del usuario quien es el actor y conductor de una base de datos. Se puede decir que la transacción son acciones conjuntas de personas que alimentan la base de datos con información o datos, la cual se encarga de organizar para posteriores operaciones, hablando de consultas en general. ',
+      'En este componente formativo se abordan las transacciones desde el punto de vista del usuario, quien es el actor y conductor de una base de datos. Se puede decir que las transacciones son acciones conjuntas de personas que alimentan la base de datos, con información o datos, transacción que se encarga de organizarla para posteriores operaciones, hablando de consultas en general.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/banner-bg.png'),
     imagenesDecorativasBanner: [
@@ -35,27 +35,7 @@ export default {
         numero: '1',
         titulo: 'Salvaguarda y recuperación',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Evaluación de concurrencia',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Descripción de fallos, control y acceso',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo:
-              'Enumeración y descripción de los elementos de recuperación ante fallos lógicos',
-            hash: 't_1_3',
-          },
-        ],
+        subMenu: [],
       },
 
       {
@@ -64,33 +44,7 @@ export default {
         numero: '2',
         titulo: 'Tipos de soporte utilizados para salvaguardar datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Ventajas',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Desventajas',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Tipos de recuperación de datos',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo:
-              'Mecanismos de verificación de la integridad de copias de seguridad',
-            hash: 't_2_4',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
@@ -142,33 +96,33 @@ export default {
   },
   complementario: [
     {
-      tema: 'Integridad de transacciones. ',
+      tema: 'Documentación de control y accesos',
       referencia:
-        'Capacho, J. y Nieto, W. (2017). Diseño de base de datos. Universidad del Norte.',
+        'Capacho, J. y Nieto, W. (2017). <em>Diseño de base de datos</em>. Universidad del Norte.',
       tipo: 'PDF',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/70030?page=129',
     },
     {
-      tema: 'Descripción de Fallos. ',
+      tema: 'Salvaguarda y recuperación ',
       referencia:
-        'San Martín, E. (2015). Salvaguarda y seguridad de los datos: administración de bases de datos (UF1473). IC Editorial.',
+        'San Martín, E. (2015). <em>Salvaguarda y seguridad de los datos: administración de bases de datos</em> (UF1473). IC Editorial.',
       tipo: 'PDF',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/44140?page=17',
     },
     {
-      tema: 'Tipos de salvaguardas de datos.',
+      tema: 'Tipos de soporte utilizados para salvaguardar datos',
       referencia:
-        'San Martín, E. (2015). Salvaguarda y seguridad de los datos: administración de bases de datos (UF1473). IC Editorial.',
+        'San Martín, E. (2015). <em>Salvaguarda y seguridad de los datos: administración de bases de datos</em> (UF1473). IC Editorial.',
       tipo: 'PDF',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/44140?page=71',
     },
     {
-      tema: 'Control de C concurrencia.',
+      tema: 'Salvaguarda y recuperación',
       referencia:
-        'Valderrey, P. (2015). Gestión de bases de datos. RA-MA Editorial.',
+        'Valderrey, P. (2015). </em>Gestión de bases de datos</em>. RA-MA Editorial.',
       tipo: 'PDF',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/62469?page=179',

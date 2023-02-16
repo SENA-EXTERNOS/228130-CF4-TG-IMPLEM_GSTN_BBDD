@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
           h2 Documentación y diagnóstico de servicios
-        p.mb-4 Apreciado participante, a continuación, encontrará unos enunciados relacionados con la experiencia de aprendizaje del presente componente de formación. Con la intención de identificar conceptos abordados durante la experiencia de aprendizaje se invita a seleccionar verdadero o falso, a cada el enunciado que se presenta.
+        p.mb-4 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo:
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

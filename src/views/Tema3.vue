@@ -17,8 +17,8 @@
                 :style="{'background-image': `url(${require('@/assets/curso/temas/T3/img-1.png')})`}"
               )
               .bloque-texto-a__texto.p-4
-                p.mb-3 En la base de datos, se asocia frecuentemente la seguridad de los datos con la de la integridad de los mismos. Usualmente, es una percepción que se tiene entre administradores de SGBD, pero ambos conceptos son bastante diferentes. Si bien la seguridad hace referencia a la protección de los datos, es decir, que los datos que estén dentro de una base de datos no tengan cambios si no están permitidos; visto desde el punto de vista de su alteración o destrucción, no autorizadas por parte del administrador. Por otra parte, la integridad hace referencia a la precisión o validez de esos datos.
-                p.mb-5 A continuación, se muestran los significados de seguridad e integridad:
+                p.mb-3 En la base de datos, frecuentemente se asocia la seguridad de los datos, con la de la integridad de los mismos. Usualmente, es una percepción que se tiene entre administradores de SGBD, pero ambos conceptos son bastante diferentes. Si bien la seguridad hace referencia a la protección de los datos, es decir, que los datos que estén dentro de una base de datos, no tengan cambios sino están permitidos, analizado desde el punto de vista de su alteración o destrucción, no autorizadas por parte del administrador. Por otro lado, la integridad hace referencia a la precisión o validez de esos datos.  
+                p.mb-1 A continuación, se muestran los significados de seguridad e integridad:
 
 
     .tarjeta--container.row.mb-5
@@ -28,14 +28,14 @@
             figure
               img(src='@/assets/curso/temas/T3/img-2.svg', alt='Texto que describa la imagen')
         h4.text-center Seguridad
-        p  protección de datos ante usuarios no autorizados.
+        p.text-center  Protección de datos ante usuarios no autorizados.
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-around.align-items-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/T3/img-3.svg', alt='Texto que describa la imagen')
         h4.text-center Integridad
-        p protección de usuarios autorizados. 
+        p.text-center Protección de usuarios autorizados.
 
 
 
@@ -68,11 +68,7 @@
 
 
 
-    .titulo-sexto.color-acento-contenido
-      p.mb-0 
-        p <b> Figura 2. </b> <i>Seguridad de los registros en un Sistema Gestor de Base de Datos (SGBD)</i>
-
-
+  
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
         figure
@@ -80,19 +76,19 @@
 
       .tarjeta.color-botones-calientes-seg.p-3(x="5.6%" y="31%" numero="1")
         .h5.mb-2 Aspectos legales, sociales y éticos
-        p Por ejemplo, la persona que hace la petición ¿tiene derecho legal para conocer la información solicitada como, el crédito de un cliente?
+        p Por ejemplo, la persona que hace la petición ¿tiene derecho legal para conocer una información solicitada como el crédito de un cliente?
 
       .tarjeta.color-botones-calientes-seg.p-3(x="21.2%" y="71.5%" numero="2")
         .h5.mb-2 Controles físicos
-        p Por ejemplo, ¿el lugar en donde se encuentra la computadora o terminal está bajo llave o con alguna otra protección?
+        p Por ejemplo, ¿el lugar en donde se encuentra la computadora o terminal, está bajo llave o con alguna otra protección?
 
       .tarjeta.color-botones-calientes-seg.p-3(x="35.6%" y="31%" numero="3")
         .h5.mb-2 Cuestiones de política
-        p Por ejemplo, ¿cómo decide la empresa propietaria del sistema a quién y a qué se le permite tener acceso?
+        p Por ejemplo, ¿cómo decide la empresa propietaria del sistema, a quién y a qué se le permite tener acceso?
 
       .tarjeta.color-botones-calientes-seg.p-3(x="50.8%" y="71.5%" numero="4")
         .h5.mb-2 Problemas operacionales
-        p Por ejemplo, si se utiliza un esquema de contraseñas, ¿cómo se les mantiene en secreto? ¿CON cuánta frecuencia son cambiadas?
+        p Por ejemplo, si se utiliza un esquema de contraseñas, ¿cómo se les mantiene en secreto?, ¿con cuánta frecuencia son cambiadas?
 
       .tarjeta.color-botones-calientes-seg.p-3(x="65.2%" y="31%" numero="5")
         .h5.mb-2 Controles de <i>hardware</i>
@@ -133,7 +129,7 @@
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             h3.mb-3 Control de acceso obligatorio
-            p.mb-4 para las copias de seguridad completas de base de datos, se utiliza la sentencia <i>RESTORE DATABASE</i>, usando como configuración o sentencia el nombre de la base de datos que se va a restaurar y el dispositivo de copia de seguridad donde se restaurará la copia de seguridad de la base de datos. 
+            p.mb-4 Para las copias de seguridad completas de base de datos, se utiliza la sentencia <i>RESTORE DATABASE</i>, usando como configuración o sentencia el nombre de la base de datos que se va a restaurar y el dispositivo de copia de seguridad donde se restaurará la copia de seguridad de la base de datos. 
             p Adicionalmente, se utiliza la sentencia <i>NORECOVERY</i>, esto con el fin de aplicar una copia de seguridad de registro de transacciones o una copia de seguridad diferencial de base de datos, después de restaurar la copia de seguridad de la base de datos. 
         
           .col-md-6
@@ -141,6 +137,8 @@
               img(src='@/assets/curso/temas/T3/img-9.png', alt='Texto que describa la imagen')
 
 
+    .cajon.color-acento-botones.destacado-new.p-4.mb-4
+      p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros. 
 
 
 
