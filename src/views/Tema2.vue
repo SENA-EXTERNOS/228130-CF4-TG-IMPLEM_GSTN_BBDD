@@ -198,7 +198,7 @@
 
 
       #t_2_3.mb-3
-        h3 Tipos de Recuperación de datos
+        h3 Tipos de recuperación de datos
 
       p La recuperación de datos es un elemento fundamental en las bases de datos, ya que se encarga de registrar el recuperado del archivo. Por tal razón, la recuperación es vital a la hora en que se presentan fallos en los gestores de bases de datos; si los datos son muy importantes para la operación del negocio se hace de forma instantánea. La realización de la restauración de bases de datos resulta útil para copiar una base de datos de un servidor a otro, disponiendo protección para los datos almacenados en bases de datos. 
 
@@ -241,7 +241,7 @@
           .row(titulo="Recuperación completa")
             p En las copias de seguridad completas de base de datos, se utiliza la sentencia RESTORE DATABASE, usando como configuración o sentencia, el nombre de la base de datos que se va a restaurar y el dispositivo de copia de seguridad, donde se restaurará la copia de seguridad de la base de datos. Adicionalmente, se utiliza la sentencia NORECOVERY, con el fin de aplicar una copia de seguridad de registro de transacciones, o una copia de seguridad diferencial de base de datos, después de restaurar la copia de seguridad de la base de datos.
 
-          .row(titulo="Recuperación de registro masivoo")
+          .row(titulo="Recuperación de registro masivo")
             p  Permite realizar operaciones de recuperación con lotes de alto rendimiento. Son necesarias las copias de seguridad de registros de transacciones, pero la recuperación solo se extiende hasta el momento de efectuar la copia de seguridad.
 
 

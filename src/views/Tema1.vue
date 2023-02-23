@@ -88,11 +88,11 @@
         figure
           img(src='@/assets/curso/temas/T1/img-6.png', alt='Texto que describa la imagen')
 
-      .tarjeta.color-botones-calientes.p-3(x="11.5%" y="93%" numero="1")
-        .h5.mb-2 Desastres naturales
-        p Son hechos impredecibles que suceden en un momento determinado. Aunque son poco probables, ocurren, eliminando por completo, sistemas de información físicamente.
+      .tarjeta.color-botones-calientes.p-3(x="11.5%" y="92%" numero="1")
+        .h5.mb-2 Virus
+        p La importancia de los datos es un elemento deseado por delincuentes informáticos que buscan la forma de robar información; por esta razón los SGBD, están expuestos constantemente a los ataques cibernéticos. 
 
-      .tarjeta.color-botones-calientes.p-3(x="36.8%" y="93%" numero="2")
+      .tarjeta.color-botones-calientes.p-3(x="36.8%" y="92%" numero="2")
         .h5.mb-2 Errores humanos
         p El desconocimiento en los sistemas de información o los accesos permitidos en ciertas tablas o ficheros, llevan a cometer errores, registrando pérdidas de información, ya sea parcial o total.
 
@@ -100,9 +100,9 @@
         .h5.mb-2 Daños de <i>hardware</i> y <i>software</i>
         p Con el tiempo, los sistemas de información se vuelven lentos por su alto trabajo, el cual es constante; por lo tanto, están expuestos a daños de discos duros, tarjetas madre, aplicaciones de la base de datos, ficheros, entre otros.
 
-      .tarjeta.color-botones-calientes.p-3(x="87.5%" y="93%" numero="4")
-        .h5.mb-2 Virus
-        p La importancia de los datos es un elemento deseado por delincuentes informáticos que buscan la forma de robar información; por esta razón los SGBD, están expuestos constantemente a los ataques cibernéticos. 
+      .tarjeta.color-botones-calientes.p-3(x="87.5%" y="92%" numero="4")
+        .h5.mb-2 Desastres naturales
+        p Son hechos impredecibles que suceden en un momento determinado. Aunque son poco probables, ocurren, eliminando por completo, sistemas de información físicamente.
 
       
 
@@ -149,7 +149,7 @@
 
     
     #t_1_3.mb-4
-      h3 Enumeración y descripción de los elementos de recuperación ante fallos lógicos
+      h3 Enumeración y descripción de los elementos de recuperación, ante fallos lógicos
 
     p.mb-5 El objetivo de la administración de la base de datos, siempre es el de mantener una armonía en el procesamiento de la información de los SGBD. Por lo tanto, no se espera contar con tablas corruptas o destruidas; si esto llega a ocurrir, se hace necesario seguir las siguientes estrategias:
 
@@ -202,9 +202,9 @@
           
           p(numero="4" titulo="Protección física de <i>hardware</i> y <i>software</i>") Son lugares que deben ser adecuados para el trabajo de los componentes, donde están la base de datos, con aire acondicionado, protección contra incendios, un SGBD de respaldo, etc.
           
-          p(numero="5" titulo="Control del acceso") Del personal al <i>software</i> mediante contraseñas y sistemas de privilegios multinivel.
+          p(numero="5" titulo="Control del acceso") Del personal al <i>software</i>, mediante contraseñas y sistemas de privilegios multinivel.
           
-          p(numero="6" titulo="Cobertura de seguro") Para los datos, en la base de datos, para contar con protección financiera
+          p(numero="6" titulo="Cobertura de seguro") Para los datos, en la base de datos, para contar con protección financiera.
 
       .col-4
         img(src='@/assets/curso/temas/T1/img-11.png')
