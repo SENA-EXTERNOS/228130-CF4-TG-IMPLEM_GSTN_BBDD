@@ -54,14 +54,15 @@
 
 
 
-    .bloque-texto-a.faf.p-4.p-md-5.mb-5.img-bg-seg
+    .bloque-texto-a.faf.p-3.p-md-4.mb-5.img-bg-seg
       .row.m-0.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           
         .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p.mb-3 La seguridad de los registros en un Sistema Gestor de Base de Datos (SGBD) es un aspecto importante para las organizaciones, su objetivo es proteger los datos de personas que no están autorizadas para el uso de ellos. 
-            p Claramente, la información es un elemento que debe tener especial cuidado, porque representa un valor importante para las empresas, perderla significa una disminución en las operaciones del negocio. Se debe recordar que la información les da la posibilidad a las empresas de gestionar negocios entre sus clientes. 
+          .contenedor-dashed.p-2
+            .bloque-texto-a__texto.p-4
+              p.mb-3 La seguridad de los registros en un Sistema Gestor de Base de Datos (SGBD) es un aspecto importante para las organizaciones, su objetivo es proteger los datos de personas que no están autorizadas para el uso de ellos. 
+              p Claramente, la información es un elemento que debe tener especial cuidado, porque representa un valor importante para las empresas, perderla significa una disminución en las operaciones del negocio. Se debe recordar que la información les da la posibilidad a las empresas de gestionar negocios entre sus clientes. 
 
 
     p.mb-5 A continuación, se ven algunos aspectos importantes que, si no se tienen en cuenta, pueden vulnerar la seguridad de los datos en una empresa:

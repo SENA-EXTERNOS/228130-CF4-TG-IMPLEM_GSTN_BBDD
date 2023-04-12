@@ -10,9 +10,10 @@
     .bloque-texto-a.invert.p-4.p-md-5.mb-5.fnd-izq
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p.mb-3 Las bases de datos son programas que guardan Información o registros organizados, que, en su conjunto, se convierten en un elemento del negocio para las empresas. Estos datos, aunque son digitales necesitan tener un componente físico (<i>hardware</i>) que permite el almacenamiento de datos. 
-            p.mb-5 Los elementos de <i>hardware</i> que escriben o leen datos en los medios de almacenamiento, se conocen como dispositivos o unidades de almacenamiento. Estos elementos hacen parte de un sistema que, en su conjunto, realiza una tarea, para el caso, la gestión de datos.
+          .contenedor-dashed.p-3        
+            .bloque-texto-a__texto.p-4
+              p.mb-3 Las bases de datos son programas que guardan Información o registros organizados, que, en su conjunto, se convierten en un elemento del negocio para las empresas. Estos datos, aunque son digitales necesitan tener un componente físico (<i>hardware</i>) que permite el almacenamiento de datos. 
+              p.mb-5 Los elementos de <i>hardware</i> que escriben o leen datos en los medios de almacenamiento, se conocen como dispositivos o unidades de almacenamiento. Estos elementos hacen parte de un sistema que, en su conjunto, realiza una tarea, para el caso, la gestión de datos.
         .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/temas/T2/img-1.png', alt='')
@@ -64,17 +65,18 @@
       .col-9
         .col-md-10.mx-absolute.mb-5
           .p-4.faa
-            .bloque-texto-a__texto.p-4
-              ol.lista-ol--cuadro
-                li 
-                  .lista-ol--cuadro__vineta.fab
-                    span 1
-                  | Ingreso y lectura de información almacenados, para luego transferirlos a la memoria de la computadora.
+            .contenedor-dashed.p-3          
+              .bloque-texto-a__texto.p-4
+                ol.lista-ol--cuadro
+                  li 
+                    .lista-ol--cuadro__vineta.fab
+                      span 1
+                    | Ingreso y lectura de información almacenados, para luego transferirlos a la memoria de la computadora.
 
-                li 
-                  .lista-ol--cuadro__vineta.fab
-                    span 2
-                  | Ingreso y escritura o grabación de datos, para que más tarde se puedan utilizar y realizar un proceso determinado. 
+                  li 
+                    .lista-ol--cuadro__vineta.fab
+                      span 2
+                    | Ingreso y escritura o grabación de datos, para que más tarde se puedan utilizar y realizar un proceso determinado. 
 
 
     .row.justify-content-around.align-items-center.mb-5
@@ -206,8 +208,9 @@
     .bloque-texto-a.invert.p-4.p-md-5.mb-5.fnd-izq-sec
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p.mb-3 Si el administrador cuenta con una planificación adecuada, se recuperan muchos errores de medios, de usuarios y de pérdida permanente en los gestores de las bases de datos. Para desarrollar un plan de copia de seguridad y restauración correcto, se deben analizar cuáles datos son sensibles para la operación del negocio de la empresa y qué posible impacto de la pérdida generan esos datos. También es conveniente crear un plan de recuperación de desastres, para garantizar que todos los sistemas y datos puedan recuperarse rápidamente. Es obligación del administrador de datos, tener esa planificación, para realizar su operación en caso de algún fallo en los SGBD. 
+          .contenedor-dashed.p-3
+            .bloque-texto-a__texto.p-4
+              p.mb-3 Si el administrador cuenta con una planificación adecuada, se recuperan muchos errores de medios, de usuarios y de pérdida permanente en los gestores de las bases de datos. Para desarrollar un plan de copia de seguridad y restauración correcto, se deben analizar cuáles datos son sensibles para la operación del negocio de la empresa y qué posible impacto de la pérdida generan esos datos. También es conveniente crear un plan de recuperación de desastres, para garantizar que todos los sistemas y datos puedan recuperarse rápidamente. Es obligación del administrador de datos, tener esa planificación, para realizar su operación en caso de algún fallo en los SGBD. 
         .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/temas/T2/img-12.png', alt='')
@@ -302,9 +305,10 @@
         .col-lg-4.mb-4.mb-lg-0
           
         .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p.mb-3 Es importante anotar que las copias de seguridad son parte de las tareas de un administrador de base de datos, siendo esta una labor constante. Este hecho se da porque los datos de las organizaciones están expuestos a fallos o daños irreparables, que deben ser recuperados de manera inmediata, una empresa no permite datos eliminados por fallos porque esto se traduciría en pérdidas económicas y desconfianza de sus clientes, por esta razón las copias de seguridad son tareas permanentes.
-            p A continuación, se identifican los tipos de copias de seguridad:
+          .contenedor-dashed.p-3
+            .bloque-texto-a__texto.p-4
+              p.mb-3 Es importante anotar que las copias de seguridad son parte de las tareas de un administrador de base de datos, siendo esta una labor constante. Este hecho se da porque los datos de las organizaciones están expuestos a fallos o daños irreparables, que deben ser recuperados de manera inmediata, una empresa no permite datos eliminados por fallos porque esto se traduciría en pérdidas económicas y desconfianza de sus clientes, por esta razón las copias de seguridad son tareas permanentes.
+              p A continuación, se identifican los tipos de copias de seguridad:
 
 
 

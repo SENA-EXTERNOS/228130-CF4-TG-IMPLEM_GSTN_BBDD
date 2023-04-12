@@ -15,9 +15,10 @@
           figure
             img(src="@/assets/curso/temas/introduccion/img-1.svg", alt="imagen relacionada")
         .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p.mb-4 Estimado aprendiz, bienvenido a este componente formativo, donde podrá adquirir conocimientos relacionados con la protección y recuperación de datos, transacción en una base de datos, soportes, documentación respectiva para el control y acceso a la información. Todos estos elementos claves, tanto para las organizaciones, como para los administradores de bases de datos, quienes serán los encargados de generar acciones que permiten salvaguardar la información. 
-            p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+          .contenedor-dashed.p-3          
+            .bloque-texto-a__texto.p-4
+              p.mb-4 Estimado aprendiz, bienvenido a este componente formativo, donde podrá adquirir conocimientos relacionados con la protección y recuperación de datos, transacción en una base de datos, soportes, documentación respectiva para el control y acceso a la información. Todos estos elementos claves, tanto para las organizaciones, como para los administradores de bases de datos, quienes serán los encargados de generar acciones que permiten salvaguardar la información. 
+              p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
     
     figure
       .video

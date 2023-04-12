@@ -10,8 +10,9 @@
     .bloque-texto-a.invert.p-4.p-md-5.mb-5.fnd-izq
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p.mb-0 Las bases de datos manejan, diariamente, altas cargas de trabajo, debido a que el procesamiento de la información es constante. Sus sistemas deben estar siempre en óptimas condiciones para que sus tareas se ejecuten con normalidad. Sin embargo, y dada la naturaleza de los sistemas, con el tiempo, empiezan a deteriorarse, presentando lentitudes en el procesamiento de la información, hecho que es natural. #[br]#[br] Ante este hecho, se presentan fallos del sistema, siendo una prioridad y un reto para el administrador de datos, que la información y sus procesos estén operando de manera normal. Estas acciones son diarias, convirtiendo en un desafío y una responsabilidad, implementar acciones que permitan el funcionamiento normal de los datos. Se debe, por lo tanto, invertir recursos para lograr sistemas, cada vez, más seguros y eficientes. Estos sistemas deben ser capaces de sobreponerse por sí solos, a los fallos que pueden presentar los sistemas de información.
+          .contenedor-dashed.p-3        
+            .bloque-texto-a__texto.p-4
+              p.mb-0 Las bases de datos manejan, diariamente, altas cargas de trabajo, debido a que el procesamiento de la información es constante. Sus sistemas deben estar siempre en óptimas condiciones para que sus tareas se ejecuten con normalidad. Sin embargo, y dada la naturaleza de los sistemas, con el tiempo, empiezan a deteriorarse, presentando lentitudes en el procesamiento de la información, hecho que es natural. #[br]#[br] Ante este hecho, se presentan fallos del sistema, siendo una prioridad y un reto para el administrador de datos, que la información y sus procesos estén operando de manera normal. Estas acciones son diarias, convirtiendo en un desafío y una responsabilidad, implementar acciones que permitan el funcionamiento normal de los datos. Se debe, por lo tanto, invertir recursos para lograr sistemas, cada vez, más seguros y eficientes. Estos sistemas deben ser capaces de sobreponerse por sí solos, a los fallos que pueden presentar los sistemas de información.
         .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/temas/T1/img-1.png', alt='')
@@ -157,7 +158,7 @@
       .col-12.mt-3
         .row.p-4.bg-celeste
           .col-3.d-none.d-lg-flex.position-relative.mt-5
-            figure.position-absolute(style="top:-75%;")
+            figure.position-absolute(style="top:-55%;")
               img(src='@/assets/curso/temas/T1/img-10.png', alt='Texto que describa la imagen')
           .col-12.col-lg-8.offset-lg-1.mt-3
             h3.mb-4 Recuperar datos
