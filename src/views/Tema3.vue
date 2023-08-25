@@ -17,7 +17,7 @@
                 :style="{'background-image': `url(${require('@/assets/curso/temas/T3/img-1.png')})`}"
               )
               .bloque-texto-a__texto.p-4
-                p.mb-3 En la base de datos, frecuentemente se asocia la seguridad de los datos, con la de la integridad de los mismos. Usualmente, es una percepción que se tiene entre administradores de SGBD, pero ambos conceptos son bastante diferentes. Si bien la seguridad hace referencia a la protección de los datos, es decir, que los datos que estén dentro de una base de datos, no tengan cambios sino están permitidos, analizado desde el punto de vista de su alteración o destrucción, no autorizadas por parte del administrador. Por otro lado, la integridad hace referencia a la precisión o validez de esos datos.  
+                p.mb-3 En la base de datos, frecuentemente se asocia la seguridad de los datos, con la de la integridad de los mismos. Usualmente, es una percepción que se tiene entre administradores de SGBD, pero ambos conceptos son bastante diferentes. Si bien la seguridad hace referencia a la protección de los datos, es decir, que los datos que estén dentro de una base de datos, no tengan cambios si no están permitidos, analizado desde el punto de vista de su alteración o destrucción, no autorizadas por parte del administrador. Por otro lado, la integridad hace referencia a la precisión o validez de esos datos.  
                 p.mb-1 A continuación, se muestran los significados de seguridad e integridad:
 
 

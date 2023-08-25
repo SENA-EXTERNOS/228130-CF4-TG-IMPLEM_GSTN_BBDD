@@ -56,7 +56,7 @@
             p Algunas columnas en una base de datos deben contener un valor de dato válido en cada fila. Es decir, no se permite que contengan valores NULL o que falten. Este elemento es importante para la integridad de los datos. Es labor del diseñador de bases de datos especificar en qué columna es requerido el valor cuando se crea una tabla, el DBMS debe impedir valores NULL o nulos en esas columnas.
 
           .row(titulo="Chequeo de validez")
-            p Para los gestores cada columna de una base de datos debe contener un dominio propio, o sea, valores que identifiquen la columna como tal. El sistema administrador de base de datos está configurado para impedir valores diferentes de datos en estas columnas.
+            p Para los gestores, cada columna de una base de datos debe contener un dominio propio, o sea, valores que identifiquen la columna como tal. El sistema administrador de base de datos está configurado para impedir valores diferentes de datos en estas columnas.
 
           .row(titulo="Integridad de entidad")
             p La clave primaria de una tabla se identifica por tener un valor único en cada fila, a diferencia de los otros valores de la tabla. Los registros duplicados no deben ser permitidos y el DBMS debe estar configurado para impedir la duplicidad de los registros, permitiendo registros únicos en cada tabla. Las restricciones de integridad de entidad aseguran que la clave primaria identifique unívocamente a cada tabla representada en la base de datos.
@@ -126,7 +126,7 @@
               .text.p-lg-3.p-4
                 .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
                   .h4.small-text.mt-sm-3.mt-md-0 Pérdida total
-                  p.mt-3.small-text Puede ocurrir por una pérdida de integridad de toda la base de datos pero que, físicamente, continúe existiendo o que se haya perdido por completo. Esto sucede cuando ocurren desastres naturales, en otras ocasiones por los virus severos que dañan la base de datos en su totalidad y en una medida menos probable, por un error humano, que elimine la base de datos o los ficheros, sin autorización.
+                  p.mt-3.small-text Puede ocurrir por una pérdida de integridad de toda la base de datos, pero que, físicamente, continúe existiendo o que se haya perdido por completo. Esto sucede cuando ocurren desastres naturales, en otras ocasiones por los virus severos que dañan la base de datos en su totalidad y en una medida menos probable, por un error humano, que elimine la base de datos o los ficheros, sin autorización.
 
         .col-10.col-lg-5
           .row.px-2.pt-2.h-100

@@ -157,7 +157,7 @@ export default {
     {
       termino: 'Concurrencia',
       significado:
-        'es el registro de transacciones simultánea en una base de datos relacional, que debe ser operada de manera organizada, para no tener pérdidas de integridad de datos.',
+        'es el registro de transacciones simultáneas en una base de datos relacional, que debe ser operada de manera organizada, para no tener pérdidas de integridad de datos.',
     },
     {
       termino: 'Eventos',
@@ -188,7 +188,7 @@ export default {
     {
       referencia:
         'Lozano, J. M. (2018). Creación y gestión de una base de datos con MySQL y PhpMyAdmin. [Tesis, Universidad de Jaén]. ',
-      link: 'https://tauja.ujaen.es/bitstream/10953.1/9445/1/TFG%20%285%29.pdf',
+      link: 'https://crea.ujaen.es/handle/10953.1/9445',
     },
     {
       referencia:

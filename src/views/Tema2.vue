@@ -83,7 +83,7 @@
       
       .col-8
         p.mb-3 Debido a los avances que han surgido a través de la historia, los medios de almacenamiento han evolucionado en forma visible, acompañados de la evolución de las computadoras. Al inicio se contaba con muy pocos elementos de almacenamiento, prácticamente solo eran los que venían predeterminados en las computadoras. Hoy en día, además de estos, existe una diversa gama de almacenamientos externos.
-        p.mb-4 A continuación, se muestra la clasificación de los soportes de almacenamiento en cuanto a su evolución histórica. En este listado, el primero de ellos se cuenta como el más antiguo y el último como el más reciente:
+        p.mb-4 A continuación, se muestra la clasificación de los soportes de almacenamiento en cuanto a su evolución histórica. En este listado, el primero de ellos se cuenta como el más antiguo y el último cómo el más reciente:
 
       .col-4
         img(src='@/assets/curso/temas/T2/img-8.png')
@@ -146,7 +146,7 @@
           .col-12.mt-3
             .row.p-4.bg-celeste
               .col-12.col-lg-8.offset-lg-1.mt-3
-                p.mb-4 La copia de seguridad se registra en un menor tiempo, porque los registros que se han hecho desde la última copia de seguridad son menos. Es decir se toma el tiempo de registrar solo los datos que han cambiado.
+                p.mb-4 La copia de seguridad se registra en un menor tiempo, porque los registros que se han hecho desde la última copia de seguridad son menos. Es decir, se toma el tiempo de registrar solo los datos que han cambiado.
               .col-3.d-none.d-lg-flex.position-relative.mt-5
                 figure.position-absolute(style="top:-75%;")
                   img(src='@/assets/curso/temas/T2/img-9.png', alt='Texto que describa la imagen')
@@ -162,7 +162,6 @@
 
           
       p Así mismo, la acción de salvaguardar datos en soportes, puede traer consigo algunas desventajas, como:
-      p.mb-4 Desventajas de salvaguardar datos en soportes:
 
 
       .row.justify-content-around.align-items-center.mb-5
