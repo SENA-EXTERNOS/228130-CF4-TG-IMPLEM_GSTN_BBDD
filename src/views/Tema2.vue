@@ -201,7 +201,7 @@
       #t_2_3.mb-3
         h3 Tipos de recuperación de datos
 
-      p La recuperación de datos es un elemento fundamental en las bases de datos, ya que se encarga de registrar el recuperado del archivo. Por tal razón, la recuperación es vital a la hora en que se presentan fallos en los gestores de bases de datos; si los datos son muy importantes para la operación del negocio se hace de forma instantánea. La realización de la restauración de bases de datos resulta útil para copiar una base de datos de un servidor a otro, disponiendo protección para los datos almacenados en bases de datos. 
+      p La recuperación de datos es un elemento fundamental en las bases de datos, ya que se encarga de registrar el recuperado del archivo. Por tal razón, la recuperación es vital a la hora en que se presentan fallos en los gestores de bases de datos; si los datos son muy importantes para la operación del negocio, se hace de forma instantánea. La realización de la restauración de bases de datos resulta útil para copiar una base de datos de un servidor a otro, disponiendo protección para los datos almacenados en bases de datos. 
 
 
     .bloque-texto-a.invert.p-4.p-md-5.mb-5.fnd-izq-sec
