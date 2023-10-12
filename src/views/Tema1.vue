@@ -10,7 +10,7 @@
     .bloque-texto-a.invert.p-4.p-md-5.mb-5.fnd-izq
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8
-          .contenedor-dashed.p-3        
+          .contenedor-dashed.p-3
             .bloque-texto-a__texto.p-4
               p.mb-0 Las bases de datos manejan, diariamente, altas cargas de trabajo, debido a que el procesamiento de la información es constante. Sus sistemas deben estar siempre en óptimas condiciones para que sus tareas se ejecuten con normalidad. Sin embargo, y dada la naturaleza de los sistemas, con el tiempo, empiezan a deteriorarse, presentando lentitudes en el procesamiento de la información, hecho que es natural. #[br]#[br] Ante este hecho, se presentan fallos del sistema, siendo una prioridad y un reto para el administrador de datos, que la información y sus procesos estén operando de manera normal. Estas acciones son diarias, convirtiendo en un desafío y una responsabilidad, implementar acciones que permitan el funcionamiento normal de los datos. Se debe, por lo tanto, invertir recursos para lograr sistemas, cada vez, más seguros y eficientes. Estos sistemas deben ser capaces de sobreponerse por sí solos, a los fallos que pueden presentar los sistemas de información.
         .col-lg-4.mb-4.mb-lg-0
@@ -20,25 +20,25 @@
 
 
     .row.justify-content-around.align-items-center.mb-5
-      
+
       .col-4.col-sm-6.col-md-4.mb-4.mb-md-0
         img(src='@/assets/curso/temas/T1/img-2.png')
 
       .col-md.col-lg-8.ps-md-5
-        p Durante los últimos años los sistemas de información como las bases de datos, han visto un crecimiento exponencial en el tratamiento de datos nuevos, que se han convertido en una tarea titánica, tanto en su organización como su protección. Por este motivo, han surgido nuevas tecnologías que permiten salvaguardar la información incluso cuando la base de datos está en operación, o se encuentra con fallas dentro de ella. El objetivo principal es prestar el servicio, aun así, se estén presentando problemas con el sistema. Es así como, salvaguardar la información es un tema recurrente para el administrador, ya que son acciones que no se deben pasar por alto, deben ser cuidadosos y manejar constantemente procesos seguros. 
+        p Durante los últimos años los sistemas de información como las bases de datos, han visto un crecimiento exponencial en el tratamiento de datos nuevos, que se han convertido en una tarea titánica, tanto en su organización como su protección. Por este motivo, han surgido nuevas tecnologías que permiten salvaguardar la información incluso cuando la base de datos está en operación, o se encuentra con fallas dentro de ella. El objetivo principal es prestar el servicio, aun así, se estén presentando problemas con el sistema. Es así como, salvaguardar la información es un tema recurrente para el administrador, ya que son acciones que no se deben pasar por alto, deben ser cuidadosos y manejar constantemente procesos seguros.
         .cajon.color-acento-botones.p-4.mb-4.color-botones
-          p La prevención en la asignación de usuarios, roles, privilegios, seguridad de acceso, entre otros, son temas del diario vivir que debe atender un administrador. Adicionalmente, debe tener planes de resguardo de información que eviten pérdidas definitivas; cuando se presentan fallos totales de información, la prioridad es que a pesar de los problemas que se presenten, los sistemas de información trabajen con normalidad. Con todo esto, surgen medidas para mitigar el impacto negativo si ocurre un fallo en el sistema de base de datos. 
-    
+          p La prevención en la asignación de usuarios, roles, privilegios, seguridad de acceso, entre otros, son temas del diario vivir que debe atender un administrador. Adicionalmente, debe tener planes de resguardo de información que eviten pérdidas definitivas; cuando se presentan fallos totales de información, la prioridad es que a pesar de los problemas que se presenten, los sistemas de información trabajen con normalidad. Con todo esto, surgen medidas para mitigar el impacto negativo si ocurre un fallo en el sistema de base de datos.
+
 
 
     #t_1_1.mb-4
       h3 Evaluación de concurrencia
 
     .row.justify-content-around.align-items-center.mb-5
-      
-      .col-6 
-        p.mb-0 El objetivo principal del control de concurrencia es el de asegurar la seriación de las transacciones en la base de datos multiusuarios. Esto es importante, porque los procesos simultáneos de transacciones en una base de datos compartida, pueden crear varias situaciones de integridad de datos, afectando su consistencia. El administrador debe, diariamente, concentrarse en la preservación, estabilidad y corrección de los datos almacenados. 
-        p.mb-4 Un Sistema de Administración de Base de Datos (DBMS) relacional, impone generalmente una o más restricciones sobre la integridad de los datos. Estas restricciones impiden que los valores que son insertados en la base de datos o duplicados mediante las actualizaciones permanentes de la base de datos, tengan parámetros restrictivos dentro de los gestores. 
+
+      .col-6
+        p.mb-0 El objetivo principal del control de concurrencia es el de asegurar la seriación de las transacciones en la base de datos multiusuarios. Esto es importante, porque los procesos simultáneos de transacciones en una base de datos compartida, pueden crear varias situaciones de integridad de datos, afectando su consistencia. El administrador debe, diariamente, concentrarse en la preservación, estabilidad y corrección de los datos almacenados.
+        p.mb-4 Un Sistema de Administración de Base de Datos (DBMS) relacional, impone generalmente una o más restricciones sobre la integridad de los datos. Estas restricciones impiden que los valores que son insertados en la base de datos o duplicados mediante las actualizaciones permanentes de la base de datos, tengan parámetros restrictivos dentro de los gestores.
 
         p A continuación, conozca los diferentes tipos de restricciones de integridad de datos, encontrados en las bases de datos relacionales:
 
@@ -73,11 +73,11 @@
       h3 Descripción de fallos, control y acceso
 
     .row.justify-content-around.align-items-center.mb-5
-      
+
       .col-md.col-lg-8
         p Toda operación que se haga en un sistema de información requiere de mantenimiento, respaldo y recuperación, constituyen un componente vital para el buen funcionamiento en los Sistemas Gestores de Base de Datos (SGBD) actuales. Algunos SGBD proporcionan herramientas para que se puedan ejecutar de manera programada respaldos automáticos en los dispositivos de almacenamiento con el fin de evitar pérdidas que afecten la operación.
         .cajon.color-acento-contenido.p-4.mb-4.color-botones-amarillo
-          p Las bases de datos son sistemas de almacenamientos de información digital que están susceptibles a fallo o pérdidas de información, por distintos motivos; es labor del administrador del sistema, evitar que esto suceda porque tiene a su alcance una serie de herramientas que le permite proteger la información. A continuación, se mencionan los factores o fallos más comunes que se presentan en los SGBD.
+          p Las bases de datos son sistemas de almacenamientos de información digital que están susceptibles a fallos o pérdidas de información, por distintos motivos; es labor del administrador del sistema, evitar que esto suceda porque tiene a su alcance una serie de herramientas que le permite proteger la información. A continuación, se mencionan los factores o fallos más comunes que se presentan en los SGBD.
           p El siguiente esquema muestra los fallos más comunes en un sistema de información:
 
       .col-4.col-sm-6.col-md-4.mb-4.mb-md-0
@@ -91,7 +91,7 @@
 
       .tarjeta.color-botones-calientes.p-3(x="11.5%" y="92%" numero="1")
         .h5.mb-2 Virus
-        p La importancia de los datos es un elemento deseado por delincuentes informáticos que buscan la forma de robar información; por esta razón los SGBD, están expuestos constantemente a los ataques cibernéticos. 
+        p La importancia de los datos es un elemento deseado por delincuentes informáticos que buscan la forma de robar información; por esta razón los SGBD, están expuestos constantemente a los ataques cibernéticos.
 
       .tarjeta.color-botones-calientes.p-3(x="36.8%" y="92%" numero="2")
         .h5.mb-2 Errores humanos
@@ -105,7 +105,7 @@
         .h5.mb-2 Desastres naturales
         p Son hechos impredecibles que suceden en un momento determinado. Aunque son poco probables, ocurren, eliminando por completo, sistemas de información físicamente.
 
-      
+
 
     .row.justify-content-around.align-items-center.mb-1
       .col-1
@@ -114,7 +114,7 @@
       .col-md.col-lg-11
         p La función del Sistema Gestor de Base de Datos (SGBD) es garantizar que los datos puedan ser recuperados en su totalidad, en caso de una pérdida física o lógica en la que se pierda la integridad de la base de datos.
         p.mb-4 Hay dos formas de pérdidas de datos, una puede ser parcial y la más delicada que afecta la operación, sería la pérdida total.
-     
+
 
     .row.mb-5
       .row.justify-content-center(data-aos="fade-down").mt-5
@@ -135,20 +135,20 @@
                 img(src="@/assets/curso/temas/T1/img-9.png", alt="Texto que describa la imagen")
               .text.p-lg-3.p-4
                 .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
-                  .h4.small-text.mt-1.mt-md-0 Pérdida parcial 
+                  .h4.small-text.mt-1.mt-md-0 Pérdida parcial
                   p.mt-3.small-text Es provocada por la pérdida física de una parte de la base de datos, o por la pérdida de integridad de una parte de la misma. También puede ocurrir un daño en algún componente del servidor, como lo es uno de sus discos duros.
 
 
     p.mb-4 En el video que se muestra a continuación, familiarícese con las generalidades y aspectos claves del control de acceso a las bases de datos. Procure llevar registro de lo más destacado:
-      
+
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/ax68XQQ4IYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
 
 
 
-    
+
+
     #t_1_3.mb-4
       h3 Enumeración y descripción de los elementos de recuperación, ante fallos lógicos
 
@@ -181,30 +181,30 @@
         LineaTiempoD.color-secundario
           p.mb-4(numero="1" titulo="Los respaldos periódicos de datos") Los respaldos periódicos de datos en los SGBD, incorporan herramientas para realizar diferentes tipos de recuperación: total o incremental.
             ul.lista-ul.mt-3
-              li 
+              li
                 i.fas.fa-angle-right
                 p.mb-0
-                  b Respaldo total: 
+                  b Respaldo total:
                   | son aquellos que registran una copia completa de toda la base de datos.
-              li 
+              li
                 i.fas.fa-angle-right
                 p.mb-0
-                  b Respaldo incremental: 
+                  b Respaldo incremental:
                   | son aquellos que registran una copia de respaldo, desde el momento en que se registró la última copia.
-              li 
+              li
                 i.fas.fa-angle-right
                 p.mb-0
-                  b Respaldo concurrente: 
+                  b Respaldo concurrente:
                   | son copias constantes, cuando el usuario realiza registros va realizando copias.
-          
+
           p(numero="2" titulo="Seleccionar el respaldo adecuado") Descripción detallada, hora y fecha.
-          
+
           p(numero="3" titulo="Copia de respaldo en almacenamiento seguro") Cada copia de respaldo, debe guardarse en un lugar diferente, que tenga todas las condiciones de seguridad y, además, el sitio debe ser apropiado en cuanto a humedad y temperatura. Hoy en día, existen empresas encargadas de guardar copias de seguridad de forma remota, periódica, automática y segura.
-          
+
           p(numero="4" titulo="Protección física de <i>hardware</i> y <i>software</i>") Son lugares que deben ser adecuados para el trabajo de los componentes, donde están la base de datos, con aire acondicionado, protección contra incendios, un SGBD de respaldo, etc.
-          
+
           p(numero="5" titulo="Control del acceso") Del personal al <i>software</i>, mediante contraseñas y sistemas de privilegios multinivel.
-          
+
           p(numero="6" titulo="Cobertura de seguro") Para los datos, en la base de datos, para contar con protección financiera.
 
       .col-4
